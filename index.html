@@ -1,132 +1,113 @@
 <!DOCTYPE HTML>
-<html lang="vi">
+<html>
 <head>
-    <title>Câu Chuyện Tình Yêu Của Chúng Tôi</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <style>
-        @font-face {
-            font-family: digit;
-            src: url('digital.ttf') format("truetype");
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            background: #fdc9d1;
-            font-size: 16px;
-            font-family: "Arial", sans-serif;
-            text-align: center;
-        }
-        #mainDiv {
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        #loveHeart {
-            width: 100%;
-            max-width: 500px;
-            margin: 0 auto;
-            position: relative;
-        }
-        #garden {
-            width: 100%;
-            height: auto;
-        }
-        #words {
-            font-size: 20px;
-            color: #444;
-            margin-top: 20px;
-        }
-        #elapseClock {
-            font-size: 22px;
-            font-weight: bold;
-            color: red;
-        }
-        #loveu {
-            font-size: 20px;
-            margin-top: 20px;
-            color: #d10000;
-        }
-        .signature {
-            font-size: 18px;
-            font-style: italic;
-            margin-top: 10px;
-        }
-        #code {
-            font-family: "Courier New", monospace;
-            text-align: left;
-            background: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            display: inline-block;
-            max-width: 90%;
-        }
-        @media screen and (max-width: 600px) {
-            #code {
-                font-size: 14px;
-            }
-            #words, #loveu {
-                font-size: 18px;
-            }
-        }
-    </style>
-    <script src="js/jquery.js"></script>
-    <script>
-        var together = new Date(2024, 6, 21, 0, 0, 0); // 21/07/2024
-        function timeElapse(date) {
-            var current = new Date();
-            var seconds = (current - date) / 1000;
-            var days = Math.floor(seconds / (3600 * 24));
-            document.getElementById("elapseClock").innerText = days + " ngày bên nhau ❤️";
-        }
-        $(document).ready(function () {
-            setInterval(function () {
-                timeElapse(together);
-            }, 1000);
-        });
-    </script>
+	<title>Chuyện Tình Của Chúng Mình 🐯❤️🐼</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital.ttf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
 </head>
+
 <body>
-    <div id="mainDiv">
-        <h1>Câu Chuyện Tình Yêu Của Chúng Tôi</h1>
-        <div id="code">
-            <span class="comments">## TÌNH YÊU CỦA CHÚNG TÔI</span><br/>
-            <span class="comments"># Tôi là một lập trình viên,</span><br/>
-            <span class="comments"># nên tôi viết mã để kỷ niệm ngày Valentine theo cách của coder.</span><br/>
-            hùng = Boy("Nguyễn Văn Hùng");<br/>
-            phuoc = Boy("Phùng Hữu Phước");<br/>
-            <span class="comments"># 21/07/2024, chúng tôi chính thức yêu nhau. </span><br/>
-            hùng.meet(phuoc)<br/>
-            hùng.confess(phuoc)<br/>
-            phuoc.accepted(hùng)<br/>
-            <span class="comments"># Chúng tôi cùng nhau tận hưởng cuộc sống.</span><br/>
-            happy(hùng, phuoc)<br/>
-            dine(hùng, phuoc)<br/>
-            vacation(hùng, phuoc)<br/>
-            <span class="comments"># Đôi khi cũng có chút xích mích.</span><br/>
-            conflict(hùng, phuoc, sometimes=True)<br/>
-            <span class="comments"># Nhưng chúng tôi ngày càng hòa hợp hơn.</span><br/>
-            hùng.in_harmony_with(phuoc)<br/>
-            phuoc.in_harmony_with(hùng)<br/>
-            <span class="comments"># Yêu nhau mãi mãi!</span><br/>
-            while True:<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;if phuoc.with(hùng):<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;phuoc = tất cả<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;else:<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tất cả = phuoc<br/>
-        </div>
-        <div id="loveHeart">
-            <canvas id="garden"></canvas>
-            <div id="words">
-                <div id="messages">
-                    Chúng tôi đã yêu nhau được
-                    <div id="elapseClock"></div>
-                </div>
-                <div id="loveu">Yêu mãi mãi ❤️<br/>
-                    <div class="signature">- Nguyễn Văn Hùng & Phùng Hữu Phước</div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">## CHUYỆN TÌNH CỦA CHÚNG MÌNH </span><br/>
+			<span class="comments"># Mình là lập trình viên,</span><br/>
+			<span class="comments"># nên mình viết code để kể về tình yêu của chúng mình ❤️.</span><br/>
+			<span class="comments">##</span><br/>
+			🐯 h = Boy(<span class="string">"Nguyễn Văn Hùng"</span>);<br/>
+			🐼 p = Boy(<span class="string">"Phùng Hữu Phước"</span>);<br/>
+			<span class="comments"># Ngày 21/07/2024, chúng mình gặp nhau.</span><br/>
+			h.meet(p)<br/>
+			<span class="comments"># Sau đó, chúng mình đã tỏ tình.</span><br/>
+			h.confess(p)<br/>
+			<span class="comments"># Và rồi, chúng mình chính thức bên nhau.</span><br/>
+			p.accepted(h)<br/>
+			<span class="comments"># Từ đó, chúng mình hạnh phúc mỗi ngày.</span><br/>
+			happy(h, p)<br/>
+			<span class="comments"># Cùng nhau học tập.</span><br/>
+			study(h, p)<br/>
+			<span class="comments"># Cùng nhau khám phá ẩm thực.</span><br/>
+			dine(h, p)<br/>
+			<span class="comments"># Cùng nhau hẹn hò.</span><br/>
+			appoint(h, p)<br/>
+			<span class="comments"># Cùng nhau đi du lịch.</span><br/>
+			vacation(h, p)<br/>
+			<span class="comments"># Đôi khi cũng có chút cãi vã.</span><br/>
+			conflict(h, p, sometimes=<span class="keyword">True</span>)<br/>
+			<span class="comments"># Nhưng chúng mình luôn hòa hợp hơn.</span><br/>
+			p.in_harmony_with(h) <br/>
+			h.in_harmony_with(p) <br/>
+			<span class="comments"># Mãi mãi là tình yêu lớn nhất.</span><br/>
+			while <span class="keyword">True</span>:<br/>
+			<span class="placeholder"></span><span class="keyword">if</span> p.with(h):<br/>
+			<span class="placeholder"></span><span class="placeholder"></span>p = everything<br/>
+			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
+			<span class="placeholder"></span><span class="placeholder"></span>everything = p<br/>
+			<span class="comments"># Chờ ngày chúng mình kết hôn.</span><br/>
+			h.marry(p, in_the_future=<span class="keyword">True</span>)<br/>
+			h.live_happily_forever_with(p)<br/>
+			<span class="comments"># Yêu nhau mãi mãi ❤️.</span><br/>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					Chúng mình đã bên nhau được
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					Mãi yêu 🐯❤️🐼<br/>
+					<div class="signature">- Hùng & Phước</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		Copyright © 2025 Yêu Thương Mãi Mãi ❤️
+	</div>
+</div>
+<script type="text/javascript">
+	var offsetX = $("#loveHeart").width() / 2;
+	var offsetY = $("#loveHeart").height() / 2 - 55;
+	var together = new Date();
+	together.setFullYear(2024, 6, 21); // Tháng 7 là 6 vì index từ 0
+	together.setHours(0);
+	together.setMinutes(0);
+	together.setSeconds(0);
+	together.setMilliseconds(0);
+
+	if (!document.createElement('canvas').getContext) {
+		var msg = document.createElement("div");
+		msg.id = "errorMsg";
+		msg.innerHTML = "Trình duyệt của bạn không hỗ trợ HTML5! Hãy sử dụng Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+		document.body.appendChild(msg);
+		$("#code").css("display", "none")
+		$("#copyright").css("position", "absolute");
+		$("#copyright").css("bottom", "10px");
+		document.execCommand("stop");
+	} else {
+		setTimeout(function () {
+			startHeartAnimation();
+		}, 5000);
+
+		timeElapse(together);
+		setInterval(function () {
+			timeElapse(together);
+		}, 500);
+
+		adjustCodePosition();
+		$("#code").typewriter();
+	}
+</script>
 </body>
 </html>
